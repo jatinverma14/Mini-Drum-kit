@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(rgb(174, 175, 245), rgb(0, 0, 0));
+}
+
+.heading h1 {
+  text-align: center;
+  padding-top: 9vh;
+  padding-bottom: 16vh;
+  font-size: 400%;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgb(0, 0, 0);
+  text-shadow: -2px -2px 2px rgb(45, 223, 74);
+}
+
+.sounds {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0vh 10vw 15vh 10vw;
+}
+
+.w {
+  background: url("./images/w.png") no-repeat center center/cover;
+}
+.a {
+  background: url("./images/a.png") no-repeat center center/cover;
+}
+.s {
+  background: url("./images/s.png") no-repeat center center/cover;
+}
+.d {
+  background: url("./images/d.png") no-repeat center center/cover;
+}
+.j {
+  background: url("./images/j.png") no-repeat center center/cover;
+}
+.k {
+  background: url("./images/k.png");
+}
+.l {
+  background: url("./images/l.png") no-repeat center center/cover;
+}
+
+.drum {
+  padding: 2rem 3rem;
+  /* margin-top: 16vh; */
+  border-radius: 7%;
+  font-size: 550%;
+  font-weight: 900;
+  font-family: 'Cormorant Garamond', serif;
+  border: 6px solid rgb(0, 0, 0);
+  background-color: white;
+  color: rgb(69, 241, 98);
+  text-shadow: 4px 4px 2px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.pressed{
+  box-shadow: -5px -5px 8px rgb(243, 241, 243);
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  font-size: 130%;
+  font-weight: 900;
+  font-family: 'Cinzel', serif;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px -1px 3px rgb(45, 223, 74);
+}
+
+@media screen and (max-width: 690px) {
+  .sounds{
+    padding-bottom: 5vh;
+  }
+  .drum{
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading h1{
+    font-size: 350%;
+  }
+  footer{
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .heading h1{
+    font-size: 250%;
+  }
+  .drum{
+    padding: 1rem 1.3rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .heading h1{
+    font-size: 220%;
+  }
+  .drum{
+    padding: 0.7rem 1rem;
+  }
+  footer{
+    font-size: 90%;
+  }
+}
