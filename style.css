@@ -12,10 +12,10 @@ body {
   padding-top: 9vh;
   padding-bottom: 16vh;
   font-size: 400%;
-  font-family: 'Great Vibes', cursive;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Cormorant Garamond", serif;
   color: rgb(0, 0, 0);
-  text-shadow: -2px -2px 2px rgb(45, 223, 74);
+  text-shadow: -2px -2px 4px rgb(45, 223, 74);
 }
 
 .sounds {
@@ -27,33 +27,39 @@ body {
 
 .w {
   background: url("./images/w.png") no-repeat center center/cover;
+  padding: 2rem 3rem;
 }
 .a {
   background: url("./images/a.png") no-repeat center center/cover;
+  padding: 2rem 3.4rem;
 }
 .s {
   background: url("./images/s.png") no-repeat center center/cover;
+  padding: 2rem 3.8rem;
 }
 .d {
   background: url("./images/d.png") no-repeat center center/cover;
+  padding: 2rem 3.3rem;
 }
 .j {
   background: url("./images/j.png") no-repeat center center/cover;
+  padding: 2rem 3.8rem;
 }
 .k {
   background: url("./images/k.png");
+  padding: 2rem 3.2rem;
 }
 .l {
   background: url("./images/l.png") no-repeat center center/cover;
+  padding: 2rem 3.6rem;
 }
 
 .drum {
-  padding: 2rem 3rem;
-  /* margin-top: 16vh; */
   border-radius: 7%;
+  margin-bottom: 1vh;
   font-size: 550%;
   font-weight: 900;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   border: 6px solid rgb(0, 0, 0);
   background-color: white;
   color: rgb(69, 241, 98);
@@ -61,7 +67,7 @@ body {
   cursor: pointer;
 }
 
-.pressed{
+.pressed {
   box-shadow: -5px -5px 8px rgb(243, 241, 243);
   opacity: 0.7;
 }
@@ -70,46 +76,45 @@ footer {
   text-align: center;
   font-size: 130%;
   font-weight: 900;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   color: rgb(0, 0, 0);
   text-shadow: -1px -1px 3px rgb(45, 223, 74);
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 1350px) {
   .sounds{
-    padding-bottom: 5vh;
+   padding-bottom: 2vh;
   }
-  .drum{
-    padding: 1.5rem 2rem;
+}
+
+@media screen and (max-width: 690px) {
+  .sounds {
+    padding-bottom: 5vh;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .heading h1{
+  .heading h1 {
     font-size: 350%;
   }
-  footer{
+  footer {
     font-size: 100%;
   }
 }
 
 @media screen and (max-width: 525px) {
-  .heading h1{
+  .heading h1 {
     font-size: 250%;
-  }
-  .drum{
-    padding: 1rem 1.3rem;
+    padding-bottom: 10vh;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .heading h1{
+  .heading h1 {
     font-size: 220%;
+    padding-bottom: 8vh;
   }
-  .drum{
-    padding: 0.7rem 1rem;
-  }
-  footer{
+  footer {
     font-size: 90%;
   }
 }
